@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: salesforce #This should always be salesforce
-    schema: "fivetran"
+    schema: "salesforce"
     database: "fivetran"
     
     #This source yml contains the following Salesforce tables: fivetran_formula, opportunity, account, user, user_role.
